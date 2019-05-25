@@ -15,6 +15,7 @@ public class NumberUtilities {
     }
 
     public static String getRange(int start, int stop) {
+        String numstring = " ";
         for (int i = start; i < stop; i++)
         {
             numstring += String.valueOf(i);
